@@ -1,0 +1,8 @@
+.avatarForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* align children centered vertically */
+  align-items: center; /* align children centered horizontally */
+  max-width: 100px;
+  margin: 20px 0;
+}

@@ -1,0 +1,24 @@
+.container {
+  margin: 20px 0;
+  display: flex;
+}
+
+.avatar {
+  padding: 0 10px 10px 0;
+}
+
+.creator {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.content {
+  padding-top: 5px;
+}
+
+.actions {
+  :global(.ant-btn) {
+    padding: 4px 0;
+    margin-right: 20px;
+  }
+}

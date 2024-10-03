@@ -1,0 +1,26 @@
+.container {
+  height: 140px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.header {
+  display: flex;
+  cursor: pointer;
+}
+
+.avatar {
+  padding-right: 4px;
+}
+
+.name {
+}
+
+.description {
+  font-size: 12px;
+}
+
+.body {
+  padding-left: 36px;
+}

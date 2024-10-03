@@ -1,0 +1,25 @@
+.wrap {
+  display: flex;
+  align-items: center;
+}
+.item {
+  display: inline-flex;
+  align-items: center;
+  margin-left: -10px;
+  background: transparent;
+  vertical-align: top;
+  padding: 0;
+  transition: transform 0.1s ease-out 0s;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.item:hover {
+  z-index: 10000 !important;
+  background: white;
+}
+.item:first-child {
+  margin-left: 0;
+}
+.avatarButton {
+  padding: 0;
+}

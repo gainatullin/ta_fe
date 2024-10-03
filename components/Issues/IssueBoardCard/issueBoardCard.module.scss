@@ -1,0 +1,30 @@
+.issueCard {
+  margin: 5px 0;
+  background-color: white;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  box-shadow: var(--ds-shadow-raised,0 1px 1px rgba(23,43,77,0.2),0 0 1px rgba(23,43,77,0.2));
+
+  &:hover {
+    background-color: #F4F5F7;
+  }
+
+  &_title {
+    min-height: 50px;
+  }
+
+  &_ticker {
+    margin: 0 5px;
+  }
+
+  &_component {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    display: inline-block;
+    padding: 0;
+    white-space: nowrap;
+    background: #fafafa;
+  }
+}

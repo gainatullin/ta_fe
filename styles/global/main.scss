@@ -1,0 +1,44 @@
+body {
+  > div:first-child {
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    height: 100vh;
+
+    > header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 0 6px 0;
+      position: relative;
+    }
+
+    > main {
+      height: 100%;
+      overflow-y: auto;
+    }
+  }
+}
+
+.container {
+  margin: 20px 0 10px;
+  padding: 0 15px;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+.ant-alert {
+  margin-top: 20px;
+}

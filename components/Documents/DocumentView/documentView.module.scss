@@ -1,0 +1,4 @@
+@import './styles/global/mixins';
+.header {
+  @include flex-position(space-between, center);
+}

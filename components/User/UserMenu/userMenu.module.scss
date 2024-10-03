@@ -1,0 +1,30 @@
+.userMenu {
+  min-width: 140px;
+
+  &_info {
+    margin: 10px 0;
+  }
+
+  &_name {
+    line-height: 1.4;
+  }
+
+  &_email {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  &_links {
+    > li {
+      padding: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: #F4F5F7;
+      }
+    }
+  }
+
+  &_divider {
+    margin: 5px 0;
+  }
+}

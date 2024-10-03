@@ -1,0 +1,15 @@
+.container {
+  max-height: 92vh;
+
+  :global(.ant-modal-content) {
+    height: 100%;
+  }
+
+  :global(.ant-modal-body) {
+    height: 100%;
+  }
+}
+
+.issue {
+  height: 100%;
+}

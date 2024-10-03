@@ -1,0 +1,28 @@
+@import './styles/global/mixins';
+.menu__wrapper {
+  @include flex-position(space-between, center);
+  h3 {
+    //margin-right: 10px;
+    color: #42526E !important;
+    font-weight: bold !important;
+    font-size: 16.8px;
+  }
+}
+.shortcuts li {
+  margin: 6px 0;
+  cursor: pointer;
+}
+.header {
+  @include flex-position(flex-start, center);
+  margin: 10px 0 20px;
+  &__avatar {
+    width: 30px;
+    margin-right: 15px;
+  }
+  &__name {
+    font-weight: bold;
+  }
+  &__description {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,16 @@
+.issueDescription, .issueDescription_empty {
+  min-height: 40px;
+
+  &:hover {
+    background-color: #F4F5F7;
+  }
+
+  &_buttons {
+    margin-top: 10px;
+  }
+
+}
+
+.issueDescription_empty {
+  color: gray;
+}

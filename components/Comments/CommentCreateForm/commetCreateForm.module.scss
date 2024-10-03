@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+
+  :global(.ant-form) {
+    width: 100%;
+  }
+
+  :global(.ant-form-item) {
+    margin-bottom: 4px;
+  }
+}
+
+.avatar {
+  padding: 0 10px 10px 0;
+}
+
+
